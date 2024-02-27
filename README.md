@@ -1,12 +1,12 @@
 # PICNIC2-LOCAL and PICNIC2-GLOBAL
 
 ## Introduction
-This README provides instructions for using PICNIC2-LOCAL and PICNIC2-GLOBAL, two 3D ResNets designed to refine AlphaFold protein tertiary structures. These tools are aimed at enhancing the accuracy of protein structure predictions by leveraging machine learning techniques.
+This README provides instructions for using PICNIC2-LOCAL and PICNIC2-GLOBAL, two 3D ResNets designed to refine AlphaFold tertiary structures. These tools are aimed at enhancing the accuracy of protein structure predictions by leveraging machine learning techniques.
 
 ## PICNIC2-LOCAL
 
 ### Description
-PICNIC2-LOCAL refines protein tertiary structure one atom at a time. It will only run on the CASP15 input models in the `local/casp15_af_models/` directory, as it uses MASS2 and LAW features, which are already generated for those models.
+PICNIC2-LOCAL refines protein tertiary structure one atom at a time. It will only run on the CASP15 input models in the `local/casp15_af_models/` directory, as it uses [MASS2](http://dna.cs.miami.edu/MASS2-CASP14/) and [LAW](http://dna.cs.miami.edu/LAW-CASP14/) features, which are already generated for those models.
 
 ### Usage
 To refine a protein structure using PICNIC2-LOCAL, follow these steps:
@@ -34,4 +34,4 @@ To refine a protein structure using PICNIC2-GLOBAL, follow these steps:
 3. The refined structure will be generated and saved in the same directory as the input file.
 
 ## Note
-Both PICNIC2-LOCAL and PICNIC2-GLOBAL utilize advanced machine learning techniques to refine protein structures. It's essential to have the necessary dependencies and libraries installed before running the refinement scripts. Additionally, please ensure that you have sufficient computational resources available to perform the refinement process effectively. For more information on the dependencies and usage, please refer to the documentation provided with the tools.
+Both PICNIC2-LOCAL and PICNIC2-GLOBAL utilize advanced machine learning techniques to refine protein structures. It's essential to have the necessary dependencies and libraries installed before running the refinement scripts. See `conda_env_packages.txt` for the packages needed in a conda environment. Additionally, please ensure that you have sufficient computational resources available to perform the refinement process effectively.
