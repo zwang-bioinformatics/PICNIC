@@ -1,4 +1,4 @@
-# PICNIC2-LOCAL and PICNIC2-GLOBAL README
+# PICNIC2-LOCAL and PICNIC2-GLOBAL
 
 ## Introduction
 This README provides instructions for using PICNIC2-LOCAL and PICNIC2-GLOBAL, two 3D ResNets designed to refine AlphaFold protein tertiary structures. These tools are aimed at enhancing the accuracy of protein structure predictions by leveraging machine learning techniques.
