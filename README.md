@@ -6,7 +6,7 @@ This README provides instructions for using PICNIC2-LOCAL and PICNIC2-GLOBAL, tw
 ## PICNIC2-LOCAL
 
 ### Description
-PICNIC2-LOCAL refines protein tertiary structure one atom at a time. It will only run on the CASP15 input models in the `local/casp15_af_models/` directory, as it uses [MASS2](http://dna.cs.miami.edu/MASS2-CASP14/) and [LAW](http://dna.cs.miami.edu/LAW-CASP14/) features, which are already generated for those models.
+PICNIC2-LOCAL refines protein tertiary structure one atom at a time. It only runs on the CASP15 input models in the `local/casp15_af_models/` directory, as it requires [MASS2](http://dna.cs.miami.edu/MASS2-CASP14/) and [LAW](http://dna.cs.miami.edu/LAW-CASP14/) features, which are already generated for those models.
 
 ### Usage
 To refine a protein structure using PICNIC2-LOCAL, follow these steps:
